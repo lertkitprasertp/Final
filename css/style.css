@@ -167,3 +167,17 @@ background:#e8ddd2;
 text-align:center;
 padding:20px;
 }
+
+.nav-btn{
+background:#e49a62;
+color:white;
+border-radius:25px;
+padding:8px 20px;
+margin:5px;
+transition:0.3s;
+}
+
+.nav-btn:hover{
+background:#ffce9d;
+color:#7b4a3a;
+}
