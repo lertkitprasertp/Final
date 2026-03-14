@@ -3,41 +3,94 @@
         <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>No Name</title>
+                <title>ตลาดแนะนำ</title>
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
                 <link rel="stylesheet" href="../css/style.css">
                 <link href="https://fonts.googleapis.com/css2?family=Itim&family=Sriracha&display=swap" rel="stylesheet">
         </head>
 
 <body>
-        <header class="site-header text-center">
-                <h1>Indy Market</h1>
+        <header class="site-header">
+                <div class="container">
+                        <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">☰</button>
+                                <div class="collapse navbar-collapse" id="menu">
+                                <ul class="navbar-nav mx-auto">
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="#">หน้าแรก</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="rice.html">ร้านอาหาร</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="snacks.html">ร้านของว่าง</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="water.html">ร้านเครื่องดื่ม</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="#">รีวิวแนะนำ</a>
+                                        </li>
+                                </ul>
+                                <a href="#contact" class="btn creator-btn">ผู้จัดทำ</a>
+                        </div>
+                        </nav>
+                </div>
         </header>
-        <div class="stars"></div>
-        <div class="container text-center mt-5">
-        <h1 class="title">แนะนำร้านในตลาดอินดี้</h1>
-        <p class="subtitle">เลือกหมวดสินค้าที่ต้องการ</p>
-        <div class="row justify-content-center mt-5">
 
-        
-<div class="col-md-3">
-        <a href="../pages/rice.html" class="menu-btn">Rice Dishes</a>
-</div>
-<div class="col-md-3">
-        <a href="../pages/snacks.html" class="menu-btn">Snacks</a>
-</div>
-<div class="col-md-3">
-        <a href="../pages/water.html" class="menu-btn">Drinks</a>
-</div>
-</div>
-</div>
+        <!-- Hero -->
+        <section class="hero text-center">
+                <h1>แนะนำร้านในตลาดอินดี้</h1>
+                <h3>รวมร้านอร่อยในตลาด</h3>
+                <p>ชิม ช้อป กิน เพลิน</p>
+                <a href="#food" class="btn explore-btn">สำรวจร้านค้า</a>
+        </section>
 
+<div class="container mt-5" id="food">
+<div class="row text-center g-4">
+
+<!-- ร้านอาหาร -->
+        <div class="col-lg-4 col-md-6">
+                <h4 class="section-title">ร้านอาหารแนะนำ</h4>
+                        <div class="card shop-card">
+                                <img src="../pages/rice.png" class="card-img-top">
+                                        <div class="card-body">
+                                                <a href="../pages/rice.html" class="btn shop-btn">ดูร้านอาหาร</a>
+                                        </div>
+                        </div>
+        </div>
+
+<!-- ร้านขนม -->
+        <div class="col-lg-4 col-md-6">
+                <h4 class="section-title">ร้านของว่างสุดฮิต</h4>
+                        <div class="card shop-card">
+                                <img src="../pages/sna.png" class="card-img-top">
+                                                <div class="card-body">
+                                                        <a href="../pages/snacks.html" class="btn shop-btn">ดูร้านของว่าง</a>
+                                                </div>
+                        </div>
+        </div>
+
+<!-- ร้านเครื่องดื่ม -->
+        <div class="col-lg-4 col-md-6">
+                <h4 class="section-title">ร้านเครื่องดื่มน่าลอง</h4>
+                        <div class="card shop-card">
+                                        <img src="../pages/wa.png" class="card-img-top">
+                                                <div class="card-body">
+                                                        <a href="../pages/water.html" class="btn shop-btn">ดูร้านน้ำ</a>
+                                                </div>
+                        </div>
+        </div>
+
+</div>
+</div>
+                
 
 <div class="container mt-5">
         <h2 class="member-title text-center mb-4">สมาชิกผู้จัดทำ</h2>
 <div class="row text-center">
 
-<div class="col-md-3">
+<div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card member-card">
                 <div class="card-body">
                         <h5 class="card-title"> 680710349 ปรินทร์ สุขสบาย </h5>
@@ -46,7 +99,7 @@
         </div>
 </div>
 
-<div class="col-md-3">
+<div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card member-card">
                 <div class="card-body">
                         <h5 class="card-title"> 680710796 ญาณิศา เบี้ยไธสง </h5>
@@ -55,7 +108,7 @@
         </div>
 </div>
 
-<div class="col-md-3">
+<div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card member-card">
                 <div class="card-body">
                         <h5 class="card-title"> 680710810 พิชญ์สินี เลิศกิจประเสริฐ </h5>
@@ -64,7 +117,7 @@
         </div>
 </div>
 
-<div class="col-md-3">
+<div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card member-card">
                 <div class="card-body">
                         <h5 class="card-title"> 680710825 กิตติมา บัวสมบูรณ์ </h5>
@@ -77,7 +130,9 @@
 </div>
 <footer id="contact" class="site-footer">
         <p>&copy; 2026 Noname</p>
+        <p>🕒 เวลาเปิด-ปิดตลาด : 15:30 - 20:00 น.</p>
         <p>📍 ม.ศิลปากร วิทยาเขตสนามจันทร์ จ.นครปฐม</p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
