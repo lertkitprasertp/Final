@@ -19,6 +19,18 @@ border-radius:25px;
 margin:20px;
 
 }
+.container{
+max-width:1000px;
+max-width:900px;
+margin:auto;
+}
+/* ปุ่ม Home */
+.bottom-menu{
+    position:fixed;
+    bottom:20px;
+    left:20px;
+    z-index:9999;
+}
 
 .logo{
 
@@ -88,7 +100,15 @@ padding:10px 25px;
 margin-top:20px;
 }
 
+.food-img{
+    border:2px solid #ae917c;
+    border-radius:15px;
+    transition:0.3s;
+}
 
+.food-img:hover{
+    transform:scale(1.05);
+}
 /* การ์ดร้าน */
 .section-title{
 margin-bottom:15px;

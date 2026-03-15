@@ -1,0 +1,116 @@
+body{
+    background:#c8d6b3;
+    font-family:'Mitr',sans-serif;
+    text-align:center;
+    color:#333;
+    margin:0;
+}
+
+h2{
+    font-size:50px;
+    color:#2f4f4f;
+    margin-top:30px;
+}
+
+/* การ์ดสินค้า */
+.card{
+    width:50%;
+    max-width:500px;
+    margin:20px auto;
+    font-size:medium;
+    padding:20px;
+    border:1px solid #aaa;
+    border-radius:12px;
+    background:#ffffff;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* รูปสินค้า */
+.card img{
+    width:90%;
+    height:300px;
+    object-fit:cover;
+    border-radius:8px;
+    border:3px solid #ccc;
+}
+
+/* เมนูแนะนำ */
+.menu-text{
+    background:#fff3cd;
+    padding:6px;
+    border-radius:5px;
+    font-family:'Mitr',sans-serif;
+    font-size:30px;
+    font-weight:bold;
+    color:#444;
+}
+
+/* ราคา */
+.price{
+    color:#ff6600;
+    font-size:20px;
+    border:2px solid #ff6600;
+    padding:6px 12px;
+    display:inline-block;
+    border-radius:6px;
+    font-weight:bold;
+    background:#fff8f2;
+}
+
+/* animation */
+.card:hover{
+    transform:scale(1.02);
+    transition:0.3s;
+}
+
+/* ปุ่ม Home */
+.bottom-menu{
+    position:fixed;
+    bottom:20px;
+    left:20px;
+    z-index:9999;
+}
+
+.bottom-menu a{
+    background:#2f4f4f;
+    color:white;
+    padding:10px 16px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 4px 8px rgba(0,0,0,0.3);
+}
+
+.bottom-menu a:hover{
+    background:#ff6600;
+}
+
+.title{
+    font-family:'Mitr', sans-serif;
+    font-size:60px;
+    color:#9c6b4a;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+/* footer */
+.site-footer{
+margin-top:60px;
+font-size:16px;
+background:#e8ddd2;
+text-align:center;
+padding:20px;
+}
+
+.nav-btn{
+background:#e49a62;
+color:white;
+border-radius:25px;
+padding:8px 20px;
+margin:5px;
+transition:0.3s;
+}
+
+.nav-btn:hover{
+background:#ffce9d;
+color:#7b4a3a;
+}
