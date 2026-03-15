@@ -1,0 +1,81 @@
+body{
+    background:#fffde7;
+    font-family:'Kanit', sans-serif;
+    }
+
+    /* header */
+    .site-header{
+    text-align:center;
+    border-bottom:2px solid #ae917c;
+    padding:30px;
+    color:#964D32;
+    }
+
+    /* container กลางหน้า */
+    .menu-container{
+    max-width:900px;
+    margin:auto;
+    }
+
+    /* ระยะห่างแต่ละเมนู */
+    .menu-item{
+    margin-bottom:70px;
+    text-align:center;
+    }
+
+    /* desktop text */
+    @media (min-width:768px){
+    .text-col{
+    text-align:left;
+    }
+    }
+
+    /* รูปอาหาร */
+    .food-img{
+    width:100%;
+    max-width:350px;
+    border:2px solid #ae917c;
+    border-radius:15px;
+    transition:transform 0.3s ease, box-shadow 0.3s;
+    }
+
+    /* hover เด้ง */
+    .food-img:hover{
+    transform:scale(1.08);
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    }
+
+    /* ราคา */
+    .price{
+    font-size:2.5rem;
+    font-weight:bold;
+    color:#dc2c2f;
+    }
+
+    /* ปุ่มเมนู */
+    .nav-section{
+    margin-top:50px;
+    margin-bottom:50px;
+    }
+
+    .nav-btn{
+    background:#e49a62;
+    color:white;
+    border-radius:25px;
+    padding:8px 20px;
+    margin:5px;
+    transition:0.3s;
+    }
+
+    .nav-btn:hover{
+    background:#ffce9d;
+    color:#7b4a3a;
+    }
+
+    /* footer */
+    .site-footer{
+    text-align:center;
+    padding:20px;
+    border-top:2px solid #ae917c;
+    background:#e9d1b9;
+    }
