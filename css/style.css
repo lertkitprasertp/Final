@@ -8,7 +8,12 @@ body {
     display:flex;
     flex-direction:column;
 }
-
+.food-img {
+        border: 2px solid #ae917c;
+            border-radius: 15px;
+                object-fit: cover; 
+                    aspect-ratio: 4 / 3; 
+}
 /* header */
 
 .site-header{
