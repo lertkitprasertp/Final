@@ -159,19 +159,29 @@ object-fit:cover;
     transform:scale(1.05);
 }
 .member-card .card-title{
-    white-space: nowrap;
     font-size:18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width:100%;
+    display:block;
 }
 .member-card{
+    height:100%;
     border-radius:15px;
-    padding:10px;
+    padding:15px;
     transition:0.3s;
+    height:120px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 /* การ์ดลอย */
 .member-card:hover{
     background:#f8ca9a;
     transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
 }
 
 /* เปลี่ยนสีชื่อสมาชิก */
