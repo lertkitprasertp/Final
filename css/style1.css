@@ -11,7 +11,26 @@ h2{
     color:#2f4f4f;
     margin-top:30px;
 }
+.site-header{
+    text-align:center;
+    background:#d9d9d9;
+    padding:25px;
+    border-radius:25px;
+    margin:20px;
+    border-bottom:2px solid #ae917c;
+    color:#964D32;
+}
 
+.container{
+    max-width:1000px;
+    max-width:900px;
+    margin:auto;
+}
+
+.nav-link:hover{
+    background:#f2e6d9;
+    border-radius:10px;
+}
 /* การ์ดสินค้า */
 .card{
     width:50%;
@@ -44,7 +63,6 @@ h2{
     font-weight:bold;
     color:#444;
 }
-
 /* ราคา */
 .price{
     color:#ff6600;
@@ -62,55 +80,11 @@ h2{
     transform:scale(1.02);
     transition:0.3s;
 }
+    /* footer */
+    .site-footer{
+    text-align:center;
+    padding:20px;
+    border-top:2px solid #ae917c;
+    background:#e9d1b9;
+    }
 
-/* ปุ่ม Home */
-.bottom-menu{
-    position:fixed;
-    bottom:20px;
-    left:20px;
-    z-index:9999;
-}
-
-.bottom-menu a{
-    background:#2f4f4f;
-    color:white;
-    padding:10px 16px;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:bold;
-    box-shadow:0 4px 8px rgba(0,0,0,0.3);
-}
-
-.bottom-menu a:hover{
-    background:#ff6600;
-}
-
-.title{
-    font-family:'Mitr', sans-serif;
-    font-size:60px;
-    color:#9c6b4a;
-    margin-top:20px;
-    margin-bottom:10px;
-}
-/* footer */
-.site-footer{
-margin-top:60px;
-font-size:16px;
-background:#e8ddd2;
-text-align:center;
-padding:20px;
-}
-
-.nav-btn{
-background:#e49a62;
-color:white;
-border-radius:25px;
-padding:8px 20px;
-margin:5px;
-transition:0.3s;
-}
-
-.nav-btn:hover{
-background:#ffce9d;
-color:#7b4a3a;
-}

@@ -4,20 +4,28 @@ body {
                                         margin: 0;
                                                     padding: 0;
                                                             }
+/* header */
+.site-header{
+    text-align:center;
+    background:#d9d9d9;
+    padding:25px;
+    border-radius:25px;
+    margin:20px;
+    border-bottom:2px solid #ae917c;
+    color:#964D32;
+}
 
-                                                                    /* หัวข้อด้านบนพร้อมเส้นขีดล่าง */
-                                                                            .header-section {
-                                                                                        text-align: center; 
-                                                                                                    border-bottom: 2px solid #ae917c; 
-                                                                                                                padding: 30px;
-                                                                                                                            margin-bottom: 50px;
-                                                                                                                                    }
+.container{
+    max-width:1000px;
+    max-width:900px;
+    margin:auto;
+}
 
-                                                                                                                                            .header-section h1 {
-                                                                                                                                                        color: #964D32; 
-                                                                                                                                                                    margin: 0;
-                                                                                                                                                                                font-weight: 500;
-                                                                                                                                                                                        }
+.nav-link:hover{
+    background:#f2e6d9;
+    border-radius:10px;
+}
+                                                                    
 
                                                                                                                                                                                                 /* จัดกลุ่มรูปและข้อความให้อยู่ด้วยกัน */
                                                                                                                                                                                                         .menu-container {
